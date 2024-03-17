@@ -8,8 +8,10 @@ export default function Home() {
   return (
     <>
       <Header></Header>
-      <SideBar></SideBar>
-      <Map></Map>
+      <div className="flex h-screen">
+        <SideBar></SideBar>
+        <Map></Map>
+      </div>
     </>
   );
 }
