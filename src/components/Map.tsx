@@ -14,7 +14,7 @@ export function Map() {
     
     return (
       <>
-        <div className="w-full h-full border">
+        <div className="w-full h-full pb-14 border">
             <GoogleMapReact
                 bootstrapURLKeys={{ key: env.NEXT_PUBLIC_GOOGLE_MAP_API_KEY }}
                 defaultCenter={defaultProps.center}
