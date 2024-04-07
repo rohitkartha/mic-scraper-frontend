@@ -14,5 +14,8 @@ export type Show = {
     show_phone: string;
     show_hostname?: string;
     show_link?: string;
+    show_lat: number;
+    show_long: number;
+
 }
 
